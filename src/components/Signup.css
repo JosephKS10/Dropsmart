@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Work+Sans&display=swap');
+.link{
+    text-decoration: none;
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+}
+.close-btn-div{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 10vh;
+}
+.close-btn{
+    font-size: 5vh;
+    position: relative;
+    right: 2vh;
+    cursor: pointer;
+    border: none;
+    color: black;
+}
+.signup-box{
+    height: 67.52vh;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+    top: 6vh;
+}
+.signup-header{
+    height: 9.63vh;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    font-size: 4vh;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5vh;
+}
+.textfield-div{
+    text-align: center;
+    height: 48vh;
+    padding-top: 2vh;
+}
+.textfield{
+    width: 44.72vw;
+    height: 3.19vh;
+    padding: 6px 12px 8px 16px;
+    border-radius: 25px;
+    font-size: 2.5vh;
+    border: gray 1px solid;
+    font-family: 'Work Sans', sans-serif;
+}
+.signup-btn{
+    width: 52.72vw;
+    height: 6.19vh;
+    border-radius: 25px;
+    background-color: #10A37F;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2.5vh;
+}
+.signup-btn:disabled{
+    background-color: gray !important;
+    cursor: not-allowed;
+}
+.redirect-login{
+    display: flex;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.8vh;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.green{
+    color: #10A37F;
+    font-weight: 600;
+}
+.line-box{
+    display: flex;
+    justify-content: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2.5vh;
+}
+hr{
+    min-width: 18vw;
+    width: 19vw;
+}
+.google-signin{
+    width: 52.72vw;
+    height: 6.19vh;
+    border-radius: 25px;
+    background-color: white;
+    border: 1px solid gray;
+    margin-left: auto;
+    margin-right: auto;
+   cursor: pointer;
+}
+.gicon{
+    font-size: 3.5vh;
+}
+.gsignin-content{
+    display: flex;
+    align-items: center;
+    font-family: 'Work Sans', sans-serif;
+    padding-left: 1vh;
+    position: relative;
+    font-size: 1.79vh;
+}

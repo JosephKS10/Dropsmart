@@ -1,0 +1,81 @@
+.btn-back{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    padding-right: 1.5vh;
+    padding-left: 0.5vh;
+}
+.info-btn-back{
+    background-color: black;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.7vh;
+    height: 5vh;
+    width: 25vw;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+.information-header{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2.3vh;
+    padding-left: 0.8vh;
+    display: flex;
+    height: fit-content;
+}
+.chart-box{
+    height: fit-content;
+
+}
+.chart{
+    position: relative;
+    transform: scale(1.1)
+}
+.chart-info{
+    padding-left: 0.5vh;
+    height: fit-content;
+}
+tr{
+    font-family: 'Work Sans', sans-serif;
+}
+.p{
+    padding-left: 0.5vh;
+    text-decoration: underline;
+}
+.space{
+    width: 20vw;
+    text-align: right;
+}
+.table{
+    position: relative;
+    top: -2vh;
+    min-width: 78vw;
+}
+.get-info-btn{
+    background-color: black;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.7vh;
+    border-radius: 10px;
+    height: 3vh;
+    width: 20vw;
+    border: none;
+}
+.get-info-btn:active{
+    background-color: black;
+    opacity: 50%;
+}
+.report-btn{
+    background-color: red;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.7vh;
+    border-radius: 15px;
+    width: 20vw;
+    border: none;
+}
+.report-btn:active{
+    background-color: red;
+    opacity: 50%;
+}

@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Work+Sans&display=swap');
+
+.home-header{
+    height: 9.63vh;
+    width:100vw;
+    display: flex;
+    justify-content: space-between;
+}
+.ds-title{
+    height: 9.63vh;
+    width: 56.5vw;
+    font-family: 'Work Sans', 'sans-serif';
+    font-size: 4vh;
+    padding-left: 0.5vh;
+}
+.get-started-pos{
+    padding-top: 2.31vh;
+    padding-bottom: 2.31vh;
+    display: flex;
+    align-items: center;
+    min-width: 27vw;
+}
+.get-started{
+    background-color: black;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.7vh;
+    height: 5vh;
+    width: 25vw;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    right: 0.5vh;
+}
+.get-started:active{
+    opacity: 50%;
+}
+.wallet{
+    display: flex;
+    align-items: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2.5vh;
+}
+.wallet-icon{
+    font-size: 4vh;
+    padding-right: 0.5vh;
+}
+.coin-icon{
+    font-size: 2.5vh;
+    color: #CD7F32;
+}
+.recenter-icon{
+    font-size: 3vh;
+    border-radius: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4.5vh;
+    width: 4.5vh;
+    z-index: 3;
+}
+.homepage-body{
+    width: auto;
+    height: auto;
+    min-height: 788px;
+    background-color: black;
+}
+.locating_dustbin_div{
+    background-image: url("../pictures/ds_back.png");
+    background-size: 100vw 50vh;
+    background-repeat:no-repeat;
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    z-index: 1;
+}
+.white-btn{
+    height: 5vh;
+    background-color: white;
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2.2vh;
+    padding: 1.5vh;
+    font-weight: 500;
+    border-radius: 20px;
+    border: 1px solid gray;
+    position: relative;
+    bottom: 6vh;
+    cursor: pointer;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+}
+.error-logo{
+    font-size: 2.5vh;
+}
+.content-div{
+    padding: 2.5vh;
+    background-color: black;
+    height: auto;
+    min-height: 40vh;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 100;
+}

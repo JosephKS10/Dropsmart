@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Work+Sans&display=swap');
+.dustbin-header{
+    height: 9.63vh;
+    width:100vw;
+    display: flex;
+    justify-content: space-between;
+}
+.dustbin-title{
+    height: 9.63vh;
+    width: 56.5vw;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 4vh;
+    padding-left: 2vh;
+}
+.go-back-div{
+    padding-right: 1vh;
+    height: 9.63;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+.dustbin-body{
+    width: 100vw;
+    height: 90.37vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dustbin-info-box{
+    width: 80vw;
+    height: 70vh;
+    border: 2.5px solid #10A37F;
+    background-color: white;
+    border-radius: 3vh;
+    position: relative;
+    top: -1.5vh;
+    font-family: 'Work Sans', sans-serif;
+}
+.info-header{
+    width: 80vw;
+    height: 9.63vh;
+    background-color: #10A37F;
+    border-top-left-radius: 2vh;
+    border-top-right-radius: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon{
+    color: white!important;
+    font-size: 4vh;
+}
+.icon-info{
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 3.2vh;
+}
+.text{
+    font-size: 4vh; 
+    padding-left: 2.5vh;
+}
+.button-box{
+    text-align: center;
+}  
+.get-info-btn-box{
+    text-align: center;
+} 
+.dustbin-btn{
+    width: 55vw;
+    height: 5vh;
+    position: relative;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2.9vh;
+    background-color: #10A37F;
+    border: none;
+    color: white;
+    border-radius: 1vh;
+    cursor: pointer;
+}
+.dustbin-btn:active{
+    background-color: #10A37F;
+    opacity: 50%;
+}
+.up{
+    position: relative;
+    top: -2vh;
+}

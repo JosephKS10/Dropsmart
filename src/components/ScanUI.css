@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Work+Sans&display=swap');
+.scan-header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.scan-title{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 4.5vh;
+    padding-left: 2vh;
+}
+.cancel-scan{
+    position: relative;
+    right: 2vh;
+    background-color: black;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.7vh;
+    height: 5vh;
+    width: 29vw;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+.cancel-scan:active{
+    background-color: black;
+    opacity: 50%;
+} 
+.scanner{
+    text-align: center;
+}
+.webcam{
+     position: relative;
+     top: -4vh;
+ }
+.capture-btn-div{
+    position: relative;
+    top: -2.5vh;
+    text-align: center;
+}
+.capture-btn{
+    width: 30vw;
+    height: 5vh;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2vh;
+    background-color: #10A37F;
+    border: none;
+    color: white;
+    border-radius: 1vh;
+    cursor: pointer;
+}
+.capture-btn:active{
+    background-color: #10A37F;
+    opacity: 50%;
+}

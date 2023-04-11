@@ -1,0 +1,67 @@
+
+.survey-header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.survey-title{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 4.5vh;
+    padding-left: 2vh;
+}
+.cancel-survey{
+    position: relative;
+    right: 2vh;
+    background-color: black;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.7vh;
+    height: 5vh;
+    width: 29vw;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+.cancel-survey:active{
+    background-color: black;
+    opacity: 50%;
+}
+.question-part{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 4vh;
+    padding: 2vh;
+    padding-bottom: 0vh;
+    padding-top: 0vh;
+    position: relative;
+    top: -5vh;
+}
+.down{
+    position: relative;
+    font-size: 4vh;
+    text-align: center;
+    padding: 4vh;
+}
+.answer-part{
+    height: 10vh;
+    text-align: center;
+    position: relative;
+    top: -5vh;
+    display:  flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.answer-btn{
+    width: 30vw;
+    height: 7vh;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 3.5vh;
+    background-color: #10A37F;
+    border: none;
+    color: white;
+    border-radius: 1vh;
+    cursor: pointer;
+}
+.answer-btn:active{
+    background-color: #10A37F;
+    opacity: 50%;
+}

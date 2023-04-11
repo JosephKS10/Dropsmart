@@ -1,0 +1,221 @@
+
+.back-container{
+    padding-top: 2.31vh;
+    padding-bottom: 2.31vh;
+    padding-right: 0.5vh;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40vw;
+}
+.profile-back{
+    background-color: black;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.7vh;
+    height: 5vh;
+    width: 25vw;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    right: 0.5vh;
+}
+.profile-back:active{
+    opacity: 50%;
+}
+.bell-icon{
+    font-size: 5vh;
+    padding-right: 1.5vh;
+    cursor: pointer;
+}
+.profile-content{
+    height: 60vh;
+    padding-top: 3vh;
+    border-top: 1px solid gray;
+}
+.content-header{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+.profile-icon{
+    font-size: 9vh;
+    padding-left: 0.9vh;
+    width: 25vw;
+}
+.content1{
+    display: flex;
+    align-items: center;
+    font-family: 'Work Sans', sans-serif;
+    width: 87vw;
+
+}
+.name{
+    font-size: 3.5vh;
+    padding-left: 1vh;
+    font-weight: 600;
+}
+.content2{
+    padding-top: 1vh;
+    padding-right: 2vh;
+}
+.signout-btn{
+    font-size: 4.5vh;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    color: black;
+}
+.signout-btn:disabled{
+    background-color: gray;
+}
+.tabs{
+    height: 50vh;
+    padding-top: 4vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2.5vh;
+}
+.home-icon{
+    padding:1vh;
+    width: 12vw;
+    height: 12vh;
+    color: black!important;
+}
+.tile{
+    height: 10vh;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 3px 4px rgba(128,128,128,0.36);
+    -moz-box-shadow: 0px 0px 3px 4px rgba(128,128,128,0.36);
+    box-shadow: 0px 0px 3px 4px rgba(128,128,128,0.36);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tile-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tile-answer{
+    height: 10vh;
+    width: 20vw;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #000;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-company1{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/23/Uber_eats_logo_2017_06_22.jpg");
+    background-repeat: no-repeat;
+    background-size: 23vw;
+    height: 10vh;
+    width: 23vw;
+    background-color: black;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.logo-company2{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/014/018/561/original/amazon-logo-on-transparent-background-free-vector.jpg");
+    background-repeat: no-repeat;
+    background-size: 22vw;
+    background-color: orange;
+    height: 10vh;
+    width: 23vw;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.logo-company3{
+    background-image: url("https://img.freepik.com/premium-vector/google-play-logo_578229-280.jpg?w=2000");
+    background-repeat: no-repeat;
+    background-size: 22vw;
+    height: 10vh;
+    width: 23vw;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.logo-company4{
+    background-image: url("https://cavinkare.com/img/2021/12/Flipkart-Logo-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size: 24vw 10vh;
+    transform: scale(1.5);
+    height: 10vh;
+    width: 23vw;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.shop-side-tile{
+    height: 10vh;
+    line-height: 0vh;
+}
+.shop-head{
+    width: 60vw;
+    padding-left: 1vh;
+}
+.shop-content{
+    font-size: 1.5vh;
+    padding-left: 1vh;
+    opacity: 70%;
+}
+.button-shop{
+    display: flex;
+    justify-content: end;
+    padding-right: 1vh;
+}
+.shop-coin-icon{
+    color: #CD7F32!important;
+    padding-left: 0.1vh;
+}
+.buy-button{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    border: none;
+    border-radius: 10px;
+    padding: 0.7vh;
+}
+.buy-button:active{
+    background-color: gray;
+    opacity: 50%;
+}
+.edittext-div{
+    display: flex;
+    
+}
+
+.text-field{
+    height: 4vh;
+    width: 65vw;
+    font-size: 2.5vh;
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+}
+.text-field:disabled{
+    cursor:no-drop;
+}
+.edit{
+    background-color: black;
+    color: white;
+    border: none;
+    border-top-right-radius: 1vh;
+    border-bottom-right-radius: 1vh;
+}
+.edit:active{
+    background-color: gray;
+    opacity: 50%;
+}
+.edit-icon{
+    font-size: 3vh;
+}
